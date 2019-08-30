@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="col1">
+            <h3>Tables</h3>
+            <div>
+                <form>
+                    <input type="search" name="tableName" required id="tableName" class="search-box"
+                        placeholder=" Search table" />
+                    <button class="close-icon" type="reset"></button>
+                </form>
+            </div>
+
+            <div id="tables">
+
+            </div>
+        </div>
+        <div class="col2">
+            <h3>Menu</h3>
+            <div>
+                <form>
+                    <input type="search" name="itemName" required id="itemName" class="search-box"
+                        placeholder=" Search menu..by course,by food" />
+                    <button class="close-icon" type="reset"></button>
+                </form>
+            </div>
+            <div id="items">
+
+            </div>
+        </div>
+
+    </div>
+    <div id="modal">
+        <div id="modal-content">
+            <div id="modal-heading">
+                <!-- <div class="content">Table1 | Order Details
+                    <button class="close-icon" id="modal-close"></button>
+                </div> -->
+            </div>
+            <table>
+                <div>
+                <thead>
+                    <td>S.No</td>
+                    <td>Item</td>
+                    <td>Price</td>
+                    <td></td>
+                    <td></td>
+                </thead>
+            
+                <tbody id="modal-data">
+                    <!-- <tr>
+                        <td>1</td>
+                        <td>Chicken Burger akjfbkjfb</td>
+                        <td>250</td>
+                        <td>
+                            <div class="serving">Number of servings</div><input type="number">
+                        </td>
+                        <td class="delete-icon"><img src="images/delete-icon.png"></td>
+                    </tr> -->
+                </tbody>
+            </table>
+
+
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
