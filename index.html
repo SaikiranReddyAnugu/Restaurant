@@ -13,8 +13,8 @@
             <h3>Tables</h3>
             <div>
                 <form>
-                    <input type="search" name="tableName" required id="tableName" class="search-box"
-                        placeholder=" Search table" />
+                    <input type="search" name="tableSearch" required id="tableSearch" onkeyup="tablefilter()"  class="search-box"
+                     placeholder=" Search table"   >
                     <button class="close-icon" type="reset"></button>
                 </form>
             </div>
@@ -27,8 +27,8 @@
             <h3>Menu</h3>
             <div>
                 <form>
-                    <input type="search" name="itemName" required id="itemName" class="search-box"
-                        placeholder=" Search menu..by course,by food" />
+                    <input type="search" name="itemSearch" required id="itemSearch" class="search-box"
+                     onkeyup="itemfilter()" placeholder=" Search menu..by course,by food" />
                     <button class="close-icon" type="reset"></button>
                 </form>
             </div>
@@ -47,16 +47,16 @@
             </div>
             <table>
                 <div>
-                <thead>
-                    <td>S.No</td>
-                    <td>Item</td>
-                    <td>Price</td>
-                    <td></td>
-                    <td></td>
-                </thead>
-            
-                <tbody id="modal-data">
-                    <!-- <tr>
+                    <thead>
+                        <td>S.No</td>
+                        <td>Item</td>
+                        <td>Price</td>
+                        <td></td>
+                        <td></td>
+                    </thead>
+
+                    <tbody id="modal-data">
+                        <!-- <tr>
                         <td>1</td>
                         <td>Chicken Burger akjfbkjfb</td>
                         <td>250</td>
@@ -65,10 +65,12 @@
                         </td>
                         <td class="delete-icon"><img src="images/delete-icon.png"></td>
                     </tr> -->
-                </tbody>
+
+                    </tbody>
             </table>
+            <div id="modal-footer">
 
-
+            </div>
         </div>
     </div>
 </body>

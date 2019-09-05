@@ -1,7 +1,7 @@
 {"items":[
-    {"id":"1","Name":"Fish","cost":"105"},
-    {"id":"2","Name":"French Fries","cost":"100"},
-    {"id":"3","Name":"Veg Burger","cost":"90"},
-    {"id":"4","Name":"Paratha","cost":"50"},
-    {"id":"5","Name":"Chicken","cost":"200"}
+    {"id":"1","Name":"Fish","cost":"105.00"},
+    {"id":"2","Name":"French Fries","cost":"100.00"},
+    {"id":"3","Name":"Veg Burger","cost":"90.00"},
+    {"id":"4","Name":"Paratha","cost":"50.00"},
+    {"id":"5","Name":"Chicken","cost":"200.00"}
 ]}

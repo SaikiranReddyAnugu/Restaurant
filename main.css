@@ -26,6 +26,14 @@ h3{
     width:60%;
    
 }
+.name{
+    font-style:normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.cost{
+    font-size: 13px; 
+}
 
 .tableBox{
     width:90%;
@@ -100,7 +108,7 @@ background-color: rgba(0,0,0,0.4);
   width:500px;
   height:auto;
   margin:auto;
-  background-color:white;  
+  background-color:white; 
 }
 #modal-heading{
     background-color:cornflowerblue;
@@ -136,4 +144,15 @@ thead, td {
  .serving{
      font-size: 12px;
      color:blue;
+ }
+ #modal-footer{
+     text-align: right;
+ }
+ #modal-footer button{
+    background-color: White;
+   border:0px;
+   padding:10px;
+ }
+ thead td{
+     font-weight: bold;
  }
