@@ -1,6 +1,6 @@
 var itemData, tableData;
 var currentTarget;
-localStorage.clear();
+//localStorage.clear();
 ready();
 function ready() {
     $.getJSON("item.json", function (data) {
