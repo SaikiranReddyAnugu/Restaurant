@@ -164,7 +164,7 @@ function deleteItem(item,index) {
     document.getElementById(index + 100).innerHTML = "Table-" + (index + 1) + "<br>Rs." + tableData[index].bill + " | Total items:" + tableData[index].count;
 }
 function noOfServings(val, item,index) {
-    if (val < 0) {
+    if (val < 0 || val=="") {
         alert("invalid input value");
     }
     else {
